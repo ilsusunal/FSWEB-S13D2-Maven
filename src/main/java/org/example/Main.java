@@ -31,7 +31,7 @@ public class Main {
             return false;
         }
         int sum = 0;
-        for(int i = 1; i < x; i++) {
+        for(int i = 1; i <= x/2; i++) {
             if(x % i == 0) {
                 sum += i;
             }
